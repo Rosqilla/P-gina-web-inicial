@@ -1,0 +1,62 @@
+p {
+    background-color: pink;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: cyan;
+    color: white;
+}
+
+header {
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+nav p:hover {
+    background-color: purple;
+}
+header img {
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: red;
+}
+
+aside {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer::before {
+    content: '© ' attr(data-year) ' -  2024';
+}
